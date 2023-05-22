@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <title>Front-End Store</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img class="header__logo" src="img/logo.png" alt="logo" class="logo" />
+      </a>
+    </header>
+
+    <nav class="navegacion">
+      <a class="navegacion__enlace" href="index.html">Tienda</a>
+      <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+      <h1>JavaScript</h1>
+
+      <div class="camisa">
+        <div class="grid__camisa">
+          <img src="img/12.jpg" alt="JavaScript" />
+          <div class="camisa__contenido">
+            <p>
+              Maecenas consectetur ultricies mi vel venenatis. Curabitur risus
+              tellus, congue non tellus at, semper dapibus turpis. Duis
+              pellentesque, risus sit amet placerat porttitor, tortor augue
+              volutpat ante, non dignissim odio ligula at arcu.
+            </p>
+
+            <form class="formulario__camisas">
+              <select name="camisas__talla" class="camisas__talla">
+                <option disabled selected>-- Seleccionar Talla --</option>
+                <option value="camisa_Chica">Chica</option>
+                <option value="camisa_Media">Media</option>
+                <option value="camisa_Grande">Grande</option>
+              </select>
+              <input
+                type="number"
+                name="cantidad"
+                min="1"
+                placeholder="Cantidad"
+                class="camisas__cantidads"
+              />
+              <input class="carrito" type="submit" value="Agregar al carrito" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Camisas -->
+    </main>
+
+    <footer class="footer">
+      <span class="footer__texto"
+        >&copy; Front-End Store - Todos los derechos reservados 2023.</span
+      >
+    </footer>
+  </body>
+</html>
